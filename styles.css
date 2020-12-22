@@ -1,0 +1,53 @@
+
+
+.mainclock {
+    position: relative;
+    width: 12%;
+    height: 0;
+    padding: 6% 0;
+    margin: 1em auto;
+    border-radius: 50%;
+    background: url("unnamed.jpg");
+    background-size: auto;
+    background-repeat: round;
+}
+
+
+.mins {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 2px;
+    height: 50%;
+    background-color: black;
+    transform-origin: 50% 100%;
+ 
+}
+
+.numbers {
+    width: 150px;
+    transform-origin: 30% 30%;
+}
+
+
+.secs {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 1px;
+    height: 50%;
+    background-color: red;
+    transform-origin: 50% 100%;
+}
+
+.hours {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 2px;
+    height: 25%;
+    background-color: black;
+    z-index: 500;
+    transform-origin: 50% 100%;
+}
+
